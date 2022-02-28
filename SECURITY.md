@@ -66,7 +66,7 @@ Test Branch will be updated to latest version and will be pushed once stable.
 ### Below are the REPO's Managed by the RitaBot Project Development Team
 | Maintained | Repo Name | Version |
 |-|-|-|
-| :white_check_mark: | rita-google-translate-api | 3.1.1 |
+| :white_check_mark: | mytranslate-api | 4.1.1 |
 | :white_check_mark: | rita-seconds-converter | 1.3.0 |
 | :white_check_mark: | rita-gulp-watch | 5.1.4 |
 
