@@ -71,6 +71,7 @@
     "prefer-const": "warn",
     "template-curly-spacing": "warn",
     "no-extra-semi": "warn",
+    "prefer-template": "warn",
     "no-prototype-builtins": "warn",
     "padded-blocks": ["warn", "always"],
     "new-cap": ["warn", {"properties": false}],
@@ -78,7 +79,6 @@
     "quote-props": "warn",
     "no-plusplus": "warn",
     "no-unused-vars": "warn",
-    "prefer-template": "warn"
     // -----------
     // eslint Off
     // -----------
