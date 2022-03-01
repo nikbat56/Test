@@ -45,6 +45,7 @@
     // ------------
     "eqeqeq": "warn",
     "no-extra-parens": "warn",
+    "arrow-parens": "warn",
     "no-multi-str": "warn",
     "require-atomic-updates": "warn",
     "no-unused-expressions": "warn",
