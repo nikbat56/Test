@@ -47,6 +47,7 @@
     "eqeqeq": "warn",
     "no-extra-parens": "warn",
     "no-multi-str": "warn",
+    "require-atomic-updates": "warn",
     "no-unused-expressions": "warn",
     "yoda": "warn",
     "brace-style": ["warn", "allman", {"allowSingleLine": true}],
