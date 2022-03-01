@@ -4,7 +4,7 @@
 
 // Codebeat:disable[LOC,ABC,BLOCK_NESTING,ARITY]
 /* eslint-disable sort-keys */
-const translate = require("mytranslate-api");
+const translate = require("./puppet");
 const ISO6391 = require("iso-639-1");
 const fn = require("./helpers");
 
