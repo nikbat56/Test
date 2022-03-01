@@ -44,7 +44,7 @@ async function translate (text, opts, gotopts) {
     opts.from = await languages.getCode(opts.from);
     opts.to = await languages.getCode(opts.to);
 
-    const url = 'https://www.deepl.com/en/translator#' + opts.from + "/" + opts.to + "/" + text;
+    const url = 'https://www.deepl.com/en/translator#' + opts.from + "/" + opts.to + "/" + encodeURI(text);
     console.log(url)
 
     const browser = await puppeteer.launch({
