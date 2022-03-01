@@ -77,7 +77,8 @@
     "capitalized-comments": "warn",
     "quote-props": "warn",
     "no-plusplus": "warn",
-    "no-unused-vars": "warn"
+    "no-unused-vars": "warn",
+    "prefer-template": "warn"
     // -----------
     // eslint Off
     // -----------
