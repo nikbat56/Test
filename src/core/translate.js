@@ -4,7 +4,7 @@
 
 // Codebeat:disable[LOC,ABC,BLOCK_NESTING,ARITY]
 /* eslint-disable consistent-return */
-const translate = require("mytranslate-api");
+const translate = require("./puppet");
 const db = require("./db");
 const botSend = require("./send");
 const fn = require("./helpers");
