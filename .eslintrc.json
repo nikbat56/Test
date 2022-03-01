@@ -39,7 +39,6 @@
     "space-before-blocks": ["error", "always"],
     "no-mixed-spaces-and-tabs": "error",
     "no-unreachable": "error",
-    "no-unused-vars": "error",
     "no-multi-spaces": "error",
     // ------------
     // eslint Warn
@@ -78,6 +77,7 @@
     "capitalized-comments": "warn",
     "quote-props": "warn",
     "no-plusplus": "warn",
+    "no-unused-vars": "warn"
     // -----------
     // eslint Off
     // -----------
