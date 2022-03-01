@@ -51,7 +51,7 @@ async function translate (text, opts, gotopts) {
         headless: true,
         args: ['--no-sandbox', '--disable-setuid-sandbox']
     });
-
+    console.log('after browser');
     const page = await browser.newPage();
 
     await page.goto(url, {
