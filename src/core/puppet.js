@@ -2,7 +2,7 @@ const puppeteer = require("puppeteer");
 
 const languages = require("./languages");
 
-async function translate(text, opts, gotopts) {
+async function translate (text, opts, gotopts) {
 
     // eslint-disable-next-line no-param-reassign
     opts = opts || {};
