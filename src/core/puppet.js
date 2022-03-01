@@ -60,6 +60,8 @@ async function translate (text, opts, gotopts) {
     const selector = '#target-dummydiv';
     await page.waitForSelector(selector);
     const data = await page.$eval('#target-dummydiv', el => el.innerHTML)
+    await browser.close();
+    
     const result = {
         "text": "",
         "pronunciation": "",
